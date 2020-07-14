@@ -13,6 +13,7 @@
 		5198567524BDD59200451984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5198567424BDD59200451984 /* Assets.xcassets */; };
 		5198567824BDD59200451984 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5198567724BDD59200451984 /* Preview Assets.xcassets */; };
 		5198567B24BDD59200451984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5198567924BDD59200451984 /* LaunchScreen.storyboard */; };
+		5198568324BDEB3100451984 /* SpeechRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5198568224BDEB3100451984 /* SpeechRecorder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5198567724BDD59200451984 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5198567A24BDD59200451984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5198567C24BDD59200451984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5198568224BDEB3100451984 /* SpeechRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecorder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				5198567424BDD59200451984 /* Assets.xcassets */,
 				5198567924BDD59200451984 /* LaunchScreen.storyboard */,
 				5198567C24BDD59200451984 /* Info.plist */,
+				5198568224BDEB3100451984 /* SpeechRecorder.swift */,
 				5198567624BDD59200451984 /* Preview Content */,
 			);
 			path = CoreHapticSample;
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5198566F24BDD59000451984 /* AppDelegate.swift in Sources */,
+				5198568324BDEB3100451984 /* SpeechRecorder.swift in Sources */,
 				5198567124BDD59000451984 /* SceneDelegate.swift in Sources */,
 				5198567324BDD59000451984 /* ContentView.swift in Sources */,
 			);
